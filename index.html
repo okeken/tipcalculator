@@ -1,0 +1,100 @@
+<!DOTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>
+		My Awesome Tip Calculator
+	</title>
+</head>
+<body>
+	<div class="calculatorBody">
+
+
+	<!-- Animation HTML
+	<div class="unhide">
+		<div class="windows8">
+	<div class="wBall" id="wBall_1">
+		<div class="wInnerBall"></div>
+	</div>
+	<div class="wBall" id="wBall_2">
+		<div class="wInnerBall"></div>
+	</div>
+	<div class="wBall" id="wBall_3">
+		<div class="wInnerBall"></div>
+	</div>
+	<div class="wBall" id="wBall_4">
+		<div class="wInnerBall"></div>
+	</div>
+	<div class="wBall" id="wBall_5">
+		<div class="wInnerBall"></div>
+	</div>
+	</div>
+-->
+
+
+
+
+
+		<div id="hideCalc">
+		<form>
+			<h1 id=headings>Smart <span id=brand>i&nbsp;</span>Tip Calculator</h1>
+			Bill Amount
+			(<span id="usdsign">$ </span>)
+				<br><input id="billAmt" type="text" placeholder="Bill">
+			<br> Service Quality
+			<br>
+
+			<select id="serviceQual">
+				 
+            <option disabled selected value="0">-- Choose an Option --</option>
+            <option value="0.2">20&#37; &#45; Outstanding</option>
+            <option value="0.15">15&#37; &#45; Good</option>
+            <option value="0.10">10&#37; &#45; It was OK</option>
+            <option value="0.05">5&#37; &#45; Bad</option>
+            <option value="0.02">2&#37; &#45; Terrible</option>
+      
+
+        </select>
+        <br>Proposed Amount<br>
+         
+				<input id="proposedAmt" type="text" placeholder="Proposed Tip">
+
+        <br>Number of People To pay the Bill<br>
+				<input id="numberOfPeople" type="text" placeholder="# of People">
+				<br><button id="calculate">Calculate Tip</button>	
+
+
+		</form>
+
+		<div class="loading">
+		<button class="bubbly-button"><div class="divi">helooo
+		
+
+
+		</div></button> 
+		</div>
+
+
+	</div>
+	
+	<!--calculator ends-->
+
+	<div id="tipShow"> <div id="tipamount">Tip Amount </div><br>
+		<span id="dollarbill"><sup>$</sup> </span>
+		<span id="tip">0.00</span>
+		<div id="each">
+			each
+			
+		</div>
+		<button id="reload" onClick="window.location.reload()">Calculate Again</button>
+	</div>
+	<!--Tip Section Ends-->
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
+
+
+
